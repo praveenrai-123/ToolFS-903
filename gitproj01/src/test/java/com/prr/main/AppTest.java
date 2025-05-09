@@ -50,4 +50,12 @@ public class AppTest {
     	assertEquals(expected,actual);
        
     }
+    @Test
+    public void testMixe() {
+    	App p = new App();
+    	int expected = 30;
+    	int actual=p.sum(72, -42);
+    	assertEquals(expected,actual);
+       
+    }
 }
